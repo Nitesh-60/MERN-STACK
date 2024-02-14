@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    margin: 4px;
+    padding: 2px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+.logo > img{
+    margin-left: 180px;
+    width: 140px;
+    height: 18px;
+}
+.navs > ul{
+    margin-right: 180px;
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+    font-size: 16px;
+    color: rgb(83, 77, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+li:hover{
+    color:rgb(10, 144, 189);
+}
+.landing-img > img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 750px;
+    height: 350px;
+}
+.body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.moto{
+    padding: 4px;
+    margin-bottom: 8px;
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(51, 47, 47);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.description{
+    font-size: 22px;
+    color: rgb(83, 77, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(10, 144, 189);
+    border-radius: 4px;
+    padding: 12px 25px;
+}
+
+.signup:hover{
+    background-color:black;
+}
